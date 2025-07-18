@@ -21,7 +21,7 @@ const TodoInput = () => {
         setNewTodo("");
       } catch (error) {
         console.log("Error adding a todo", error);
-        Alert.alert("Error", "Failed");
+        Alert.alert("Error", "Failed to add a todo");
       }
     }
   };
