@@ -200,7 +200,7 @@ export default function Index() {
       style={homeStyles.container}
     >
       <StatusBar barStyle={colors.statusBarStyle} />
-      <SafeAreaView style={homeStyles.safeArea}>
+      <SafeAreaView style={homeStyles.safeArea} edges={["top"]}>
         <Header />
 
         <TodoInput />
